@@ -1,0 +1,241 @@
+@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix role: <http://vitro.mannlib.cornell.edu/ns/vitro/role#> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl2: <http://www.w3.org/2006/12/owl2-xml#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix aka: <http://vivoweb.org/ontology/aka#> .
+@prefix far: <http://vitro.mannlib.cornell.edu/ns/reporting#> .
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix aktp: <http://www.aktors.org/ontology/portal#> .
+@prefix tamu: <http://vivo.library.tamu.edu/ontology/TAMU#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix socsci: <http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#> .
+@prefix statistics: <http://purl.org/net/OCRe/statistics.owl#> .
+@prefix sce: <http://vivoweb.org/ontology/SchoolOfContinuingEducation#> .
+@prefix config: <http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#> .
+@prefix skos2: <http://www.w3.org/2008/05/skos#> .
+@prefix vivoc: <http://vivo.library.cornell.edu/ns/0.1#> .
+@prefix pubmed: <http://vitro.mannlib.cornell.edu/ns/pubmed#> .
+@prefix cce: <http://vivoweb.org/ontology/cornell-cooperative-extension#> .
+@prefix mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix datagetter: <java:edu/cornell/mannlib/vitro/webapp/utils/datagetter/> .
+@prefix hr: <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#> .
+@prefix pvs: <http://vivoweb.org/ontology/provenance-support#> .
+@prefix wos: <http://vivo.mannlib.cornell.edu/ns/ThomsonWOS/0.1#> .
+@prefix scirr: <http://vivoweb.org/ontology/scientific-research-resource#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix stars: <http://vitro.mannlib.cornell.edu/ns/cornell/stars/classes#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix local: <http://vivo.cornell.edu/ontology/local#> .
+@prefix study_protocol: <http://purl.org/net/OCRe/study_protocol.owl#> .
+@prefix ai: <http://vivoweb.org/ontology/activity-insight#> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wcmc: <http://weill.cornell.edu/vivo/ontology/wcmc#> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix app: <http://eagle-i.org/ont/app/1.0/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ospcu: <http://vivoweb.org/ontology/cu-vivo-osp#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix swvs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node191g87197x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "person_retired_faculty_tab-9-3-2014.txt" ;
+	km-dev:modelPublicationTime "1410368505127"^^xsd:long ;
+	km-dev:modelVersion "1.5" ;
+	km-dev:hasWorksheetHistory "[{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"UID\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivo.library.tamu.edu/ontology/TAMU#UID\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1 (add)\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"UIN\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivo.library.tamu.edu/ontology/TAMU#UIN\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"NETID\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivo.library.tamu.edu/ontology/TAMU#NETID\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"FullName\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"FirstName\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2006/vcard/ns#givenName\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"LastName\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2006/vcard/ns#familyName\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"MidName\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivoweb.org/ontology/core#middleName\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Email\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2006/vcard/ns#email\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivoweb.org/ontology/core#hrJobTitle\",\"isPrimary\":true,\"DomainLabel\":\"vivo:EmeritusFaculty1\",\"DomainId\":\"http://vivoweb.org/ontology/core#EmeritusFaculty1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#EmeritusFaculty\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"}]" .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 a rr:TriplesMap .
+
+_:node191g87197x1 km-dev:hasTriplesMap km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x2 rr:tableName "person_retired_faculty_tab-9-3-2014.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasLogicalTable _:node191g87197x2 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:logicalTable _:node191g87197x2 ;
+	rr:subjectMap _:node191g87197x3 .
+
+_:node191g87197x1 km-dev:hasSubjectMap _:node191g87197x3 .
+
+_:node191g87197x3 km-dev:isPartOfMapping _:node191g87197x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#EmeritusFaculty1" ;
+	rr:class vivo:EmeritusFaculty ;
+	rr:template "http://localhost:8080/source/{UID}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_5d262eb8-f6c3-4648-8504-bd42e20d8ad0 rr:predicate tamu:NETID .
+
+_:node191g87197x4 rr:column "NETID" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x4 .
+
+km-dev:PredicateObjectMap_5d262eb8-f6c3-4648-8504-bd42e20d8ad0 rr:objectMap _:node191g87197x4 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_5d262eb8-f6c3-4648-8504-bd42e20d8ad0 .
+
+km-dev:PredicateObjectMap_5d262eb8-f6c3-4648-8504-bd42e20d8ad0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5d262eb8-f6c3-4648-8504-bd42e20d8ad0 .
+
+km-dev:PredicateObjectMap_70e1fff0-766d-4b12-991f-262a98a91866 rr:predicate tamu:UID .
+
+_:node191g87197x5 rr:column "UID" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x5 .
+
+km-dev:PredicateObjectMap_70e1fff0-766d-4b12-991f-262a98a91866 rr:objectMap _:node191g87197x5 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_70e1fff0-766d-4b12-991f-262a98a91866 .
+
+km-dev:PredicateObjectMap_70e1fff0-766d-4b12-991f-262a98a91866 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_70e1fff0-766d-4b12-991f-262a98a91866 .
+
+km-dev:PredicateObjectMap_355200bd-6e07-436c-8e32-f8a1fa3bc7a0 rr:predicate tamu:UIN .
+
+_:node191g87197x6 rr:column "UIN" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x6 .
+
+km-dev:PredicateObjectMap_355200bd-6e07-436c-8e32-f8a1fa3bc7a0 rr:objectMap _:node191g87197x6 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_355200bd-6e07-436c-8e32-f8a1fa3bc7a0 .
+
+km-dev:PredicateObjectMap_355200bd-6e07-436c-8e32-f8a1fa3bc7a0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_355200bd-6e07-436c-8e32-f8a1fa3bc7a0 .
+
+km-dev:PredicateObjectMap_8fe7eadd-16d1-4e68-92b8-acbd24ba286b rr:predicate vivo:hrJobTitle .
+
+_:node191g87197x7 rr:column "Title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x7 .
+
+km-dev:PredicateObjectMap_8fe7eadd-16d1-4e68-92b8-acbd24ba286b rr:objectMap _:node191g87197x7 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_8fe7eadd-16d1-4e68-92b8-acbd24ba286b .
+
+km-dev:PredicateObjectMap_8fe7eadd-16d1-4e68-92b8-acbd24ba286b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8fe7eadd-16d1-4e68-92b8-acbd24ba286b .
+
+km-dev:PredicateObjectMap_990fc24e-5ba6-4a23-8d20-28e39ae77081 rr:predicate vivo:middleName .
+
+_:node191g87197x8 rr:column "MidName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x8 .
+
+km-dev:PredicateObjectMap_990fc24e-5ba6-4a23-8d20-28e39ae77081 rr:objectMap _:node191g87197x8 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_990fc24e-5ba6-4a23-8d20-28e39ae77081 .
+
+km-dev:PredicateObjectMap_990fc24e-5ba6-4a23-8d20-28e39ae77081 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_990fc24e-5ba6-4a23-8d20-28e39ae77081 .
+
+km-dev:PredicateObjectMap_5e3d681b-2e20-4448-a2e6-3e2cf6571e4e rr:predicate rdfs:label .
+
+_:node191g87197x9 rr:column "FullName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x9 .
+
+km-dev:PredicateObjectMap_5e3d681b-2e20-4448-a2e6-3e2cf6571e4e rr:objectMap _:node191g87197x9 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_5e3d681b-2e20-4448-a2e6-3e2cf6571e4e .
+
+km-dev:PredicateObjectMap_5e3d681b-2e20-4448-a2e6-3e2cf6571e4e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5e3d681b-2e20-4448-a2e6-3e2cf6571e4e .
+
+km-dev:PredicateObjectMap_db5c708b-d409-4309-bf1e-4965aaacf055 rr:predicate vcard:email .
+
+_:node191g87197x10 rr:column "Email" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x10 .
+
+km-dev:PredicateObjectMap_db5c708b-d409-4309-bf1e-4965aaacf055 rr:objectMap _:node191g87197x10 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_db5c708b-d409-4309-bf1e-4965aaacf055 .
+
+km-dev:PredicateObjectMap_db5c708b-d409-4309-bf1e-4965aaacf055 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_db5c708b-d409-4309-bf1e-4965aaacf055 .
+
+km-dev:PredicateObjectMap_1204facd-fdb3-4325-9e26-49788e884b98 rr:predicate vcard:familyName .
+
+_:node191g87197x11 rr:column "LastName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x11 .
+
+km-dev:PredicateObjectMap_1204facd-fdb3-4325-9e26-49788e884b98 rr:objectMap _:node191g87197x11 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_1204facd-fdb3-4325-9e26-49788e884b98 .
+
+km-dev:PredicateObjectMap_1204facd-fdb3-4325-9e26-49788e884b98 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1204facd-fdb3-4325-9e26-49788e884b98 .
+
+km-dev:PredicateObjectMap_344ec3e7-981c-44ad-b7fc-5c8fb2df4c15 rr:predicate vcard:givenName .
+
+_:node191g87197x12 rr:column "FirstName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasObjectMap _:node191g87197x12 .
+
+km-dev:PredicateObjectMap_344ec3e7-981c-44ad-b7fc-5c8fb2df4c15 rr:objectMap _:node191g87197x12 .
+
+km-dev:TriplesMap_9089b5f3-ee15-4fac-b99c-f9c61bef5a05 rr:predicateObjectMap km-dev:PredicateObjectMap_344ec3e7-981c-44ad-b7fc-5c8fb2df4c15 .
+
+km-dev:PredicateObjectMap_344ec3e7-981c-44ad-b7fc-5c8fb2df4c15 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191g87197x1 .
+
+_:node191g87197x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_344ec3e7-981c-44ad-b7fc-5c8fb2df4c15 .
